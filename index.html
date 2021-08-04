@@ -6,14 +6,15 @@
 	 <title>Chindits Millitary Group - CMG</title>
 	 <link rel="stylesheet" type="text/css" href="style.css"> 
 	 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Georama:ital,wght@1,700&display=swap" rel="stylesheet">
-</head>
+<script src="https://kit.fontawesome.com/ee5e1ffafd.js" crossorigin="anonymous"></script>
+
 <body>
 <section class="header">
 		<nav> 
 			<a href="index.html"><img class=img-logo src="img/CMG_Logo.png" alt="Chindits Millitary Group"> 
-			<div class="nav-links">
+			<div class="nav-links" id="navLinks">
+				<i class="fas fa-times" onclick="hideMenu()"></i>
 				<ul>
 					<li><a href="">HOME</a></li>
 					<li><a href="">ABOUT US</a></li>
@@ -23,6 +24,7 @@
 					<li><a href="">PARTNERS</a></li>
 				</ul>
 			</div>
+			<i class="fas fa-bars" onclick="showMenu()"></i>
 		</nav>
 
 <div class="text-box">
@@ -33,7 +35,18 @@
 
 	</section>
 
+<script>
+	
+	var navLinks  = document.getElementById("navLinks");
 
+	function showMenu(){
+		navLinks.style.right = "0";
+	}
+	function hideMenu(){
+		navLinks.style.right = "-200px";
+	}
+
+</script>
 
 
 </body>

@@ -86,6 +86,10 @@ nav img{
 	transition: 1s;
 }
 
+nav .fas{
+	display: none;
+}
+
 @media(max-width: 700px){
 	.text-box h1{
 		font-size: 20px;
@@ -95,12 +99,26 @@ nav img{
 	}
 	.nav-links{
 		position: absolute;
-		background: #f44336;
+		background: #FFF000;
 		height: 100vh;
 		width: 200px;
 		top: 0;
-		right: 0;
+		right: -200px;
 		text-align: left;
 		z-index: 2;
+		transition: 1s;
+	}
+	.nav-links ul li a{
+		color: #030E63;
+	}
+	nav .fas{
+		display: block;
+		color: #000000;
+		margin: 14px;
+		font-size: 18px;
+		cursor: pointer;
+	}
+	.nav-links ul{
+		padding: 10px;
 	}
 }
