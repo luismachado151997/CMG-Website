@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	 <title>Chindits Millitary Group - CMG</title>
+	 <link rel="stylesheet" type="text/css" href="style.css"> 
+	 <link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Georama:ital,wght@1,700&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/ee5e1ffafd.js" crossorigin="anonymous"></script>
+
+<body>
+<section class="sub-header">
+		<nav> 
+			<a href="index.html"><img class=img-logo src="img/CMG_Logo.png" alt="Chindits Millitary Group"> 
+			<div class="nav-links" id="navLinks">
+				<i class="fas fa-times" onclick="hideMenu()"></i>
+				<ul>
+					<li><a href="">HOME</a></li>
+					<li><a href="">ABOUT US</a></li>
+					<li><a href="">JOIN US</a></li>
+					<li><a href="">MEET THE TEAM</a></li>
+					<li><a href="">GALLERY</a></li>
+					<li><a href="">PARTNERS</a></li>
+				</ul>
+			</div>
+			<i class="fas fa-bars" onclick="showMenu()"></i>
+		</nav>
+<div class="text-box">
+	<h1>About Us</h1>
+</div>
+	</section>
+
+<!-----------------About Us Content--------------------------------------->
+
+<section class="about-us">
+	
+	<div class="row">
+		<div class="about-col">
+			<h1>CMG</h1>
+			<p>The <b>Chindits Military Group</b> was created as the natural progression of our original MilSim unit, <i>Long Range Penetration Group Chindits;</i> a successful Battlefield V Playstation based unit. As such, we have developed an experienced, well-organized and committed leadership team in the present days. 
+				<a href="">MEET OUR TEAM</a>	
+	</div>
+	<div class="about-col">
+		<img src="img/chindits.jfif">
+		
+	</div>
+
+
+
+</section>
+
+
+
+
+
+<!-----------------JavaScript for Toggle Menu----------------------------->
+
+<script>
+	
+	var navLinks  = document.getElementById("navLinks");
+
+	function showMenu(){
+		navLinks.style.right = "0";
+	}
+	function hideMenu(){
+		navLinks.style.right = "-200px";
+	}
+
+</script>
+
+
+</body>
+</html>
