@@ -99,7 +99,7 @@ nav .fas{
 	}
 	.nav-links{
 		position: absolute;
-		background: #FFF000;
+		background: #F7B719;
 		height: 100vh;
 		width: 200px;
 		top: 0;
@@ -123,6 +123,23 @@ nav .fas{
 	}
 }
 
+/*---------------------Footer-----------------------------*/
+
+.footer{
+	width: 100%;
+	text-align: center;
+	padding: 30px 0;
+	background-color: #F7B719;
+}
+.icons .fa{
+	color: #142238;
+	margin: 0 13px;
+	cursor: pointer;
+	padding: 18px 0;
+
+}
+
+
 /*--------------------------About us Page-----------------*/
 
 
@@ -140,16 +157,27 @@ nav .fas{
 }
 
 .about-us{
-	width: 80%;
-	margin: auto;
+	width: 100%;
+	margin: 0;
 	padding-top: 80px;
 	padding-bottom: 50px;
+	background-color: #142238;
 }
 
 .about-col{
 	flex-basis: 48%;
 	padding: 30px 2px;
+	text-align: center;
 }
 .about-col img{
-	width: 100%;
+	width: 55%;
+}
+.about-col h1{
+	padding-top: 0;
+}
+.about-col p{
+	padding: 15px 0 25px;
+}
+.a{
+	color: #F7B719;
 }
