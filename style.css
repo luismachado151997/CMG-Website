@@ -1,3 +1,6 @@
+  html {
+   min-height: 100vh;
+ }
 *{
 	margin: 0;
 	padding: 0;
@@ -90,7 +93,7 @@ nav .fas{
 	display: none;
 }
 
-@media(max-width: 700px){
+@media(max-width: 500px){
 	.text-box h1{
 		font-size: 20px;
 	}
@@ -110,17 +113,21 @@ nav .fas{
 	}
 	.nav-links ul li a{
 		color: #030E63;
+
 	}
 	nav .fas{
 		display: block;
-		color: #000000;
+		color: #F7B719;
 		margin: 14px;
 		font-size: 18px;
 		cursor: pointer;
+
 	}
 	.nav-links ul{
 		padding: 10px;
 	}
+	
+
 }
 
 /*---------------------Footer-----------------------------*/
@@ -130,6 +137,7 @@ nav .fas{
 	text-align: center;
 	padding: 30px 0;
 	background-color: #F7B719;
+	color: #142238;
 }
 .icons .fa{
 	color: #142238;
