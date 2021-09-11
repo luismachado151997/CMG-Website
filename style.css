@@ -101,7 +101,7 @@ nav .fas{
 		display: block;
 	}
 	.nav-links{
-		position: absolute;
+		position: fixed;
 		background: #F7B719;
 		height: 100vh;
 		width: 200px;
@@ -126,8 +126,6 @@ nav .fas{
 	.nav-links ul{
 		padding: 10px;
 	}
-	
-
 }
 
 /*---------------------Footer-----------------------------*/
@@ -150,42 +148,42 @@ nav .fas{
 
 /*--------------------------About us Page-----------------*/
 
-
 .sub-header{
-	height: 75vh;
+	height: 70vh;
 	width: 100%;
-	background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(img/rotterdam.jpg);
+	background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(img/meetus.jpg);
 	background-position: center;
 	background-size: cover;
 	text-align: center;
 	color: #fff;
 }
 .sub-header h1{
-	margin-top: 100px;
+	height: 50vh;
+	width: 100%;
+	text-align: center;
+	color: #fff;
+	margin-top: 30px;
+	font-size: 55px;
 }
 
 .about-us{
 	width: 100%;
-	margin: 0;
+	margin: auto;
 	padding-top: 80px;
 	padding-bottom: 50px;
 	background-color: #142238;
 }
-
 .about-col{
 	flex-basis: 48%;
-	padding: 30px 2px;
-	text-align: center;
-}
-.about-col img{
-	width: 55%;
+	padding: 30px;
 }
 .about-col h1{
-	padding-top: 0;
+	text-align: center;
+	color: #fff;
+	font-size: 38px;
+	padding: 30px;
 }
-.about-col p{
-	padding: 15px 0 25px;
-}
-.a{
-	color: #F7B719;
+
+.about-col img{
+	width: 30%;
 }
